@@ -15,6 +15,10 @@
 
 *Built with strict TypeScript, Express, React 18, Tailwind CSS, and SQLite with WAL mode.*
 
+<br/>
+
+<img src="devpulse_promo.jpg" alt="DevPulse Agile Engineering Platform Mockup" width="100%" style="border-radius: 12px; border: 1px solid #334155; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);" />
+
 </div>
 
 ---
