@@ -89,3 +89,4 @@ export const IssueCard: React.FC<IssueCardProps> = ({ issue, onClick, onStatusCh
     </div>
   );
 };
+

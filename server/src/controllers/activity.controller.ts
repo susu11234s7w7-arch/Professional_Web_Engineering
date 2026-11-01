@@ -64,3 +64,4 @@ export function getProjectActivity(req: Request, res: Response, next: NextFuncti
     next(error);
   }
 }
+

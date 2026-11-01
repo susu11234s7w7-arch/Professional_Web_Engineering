@@ -4,6 +4,9 @@
 
 **Production-Grade Agile Engineering Workspace & Team Issue Tracker**
 
+**Developed & Engineered by:** **Suhail Alhaj (سهيل الحاج)**  
+**Contact / Phone:** `+967 773850911` | **Email:** `sboymohmmed@gmail.com` | **GitHub:** [@susu11234s7w7-arch](https://github.com/susu11234s7w7-arch)
+
 [![CI Pipeline](https://github.com/susu11234s7w7-arch/Professional_Web_Engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/susu11234s7w7-arch/Professional_Web_Engineering/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-indigo.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg)](https://www.typescriptlang.org/)
@@ -247,5 +250,8 @@ Professional_Web_Engineering/
 
 ---
 
-## 15. License
-DevPulse is open-source software licensed under the [MIT License](LICENSE).
+## 15. License & Copyright
+All rights reserved © 2026 **Suhail Alhaj (سهيل الحاج)**.  
+Licensed under the [MIT License](LICENSE).  
+For inquiries and technical collaboration: Phone: `773850911` | Email: `sboymohmmed@gmail.com`.
+

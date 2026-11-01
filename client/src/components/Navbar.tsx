@@ -27,6 +27,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenCreateIssue, onOpenCreateP
               v1.0
             </span>
           </div>
+          <div className="hidden lg:flex items-center space-x-1 px-2.5 py-0.5 rounded-full bg-slate-800/80 border border-slate-700/80 text-[11px] text-slate-300">
+            <span className="text-slate-400">م/</span>
+            <span className="font-semibold text-white">سهيل الحاج</span>
+            <span className="text-slate-600">&bull;</span>
+            <a href="tel:773850911" className="text-emerald-400 font-mono hover:underline">773850911</a>
+          </div>
         </div>
 
         {user && projects.length > 0 && (
@@ -102,3 +108,4 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenCreateIssue, onOpenCreateP
     </header>
   );
 };
+

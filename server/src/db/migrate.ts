@@ -85,3 +85,4 @@ export function runMigrations(db: Database.Database): void {
     CREATE INDEX IF NOT EXISTS idx_activity_project ON activity_logs(project_id);
   `);
 }
+

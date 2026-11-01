@@ -20,3 +20,4 @@ router.post('/:issueId/comments', validate({ body: createCommentSchema }), addCo
 router.get('/:issueId/activity', getIssueActivity);
 
 export default router;
+

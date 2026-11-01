@@ -304,3 +304,4 @@ export const IssueModal: React.FC<IssueModalProps> = ({ issue: initialIssue, onC
     </div>
   );
 };
+

@@ -123,3 +123,4 @@ export const ListView: React.FC<ListViewProps> = ({ onSelectIssue }) => {
     </div>
   );
 };
+

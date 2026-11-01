@@ -41,3 +41,4 @@ export function resetDbForTesting(): Database.Database {
   closeDb();
   return getDb(':memory:');
 }
+

@@ -95,11 +95,24 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, onOpe
         )}
       </div>
 
-      {/* Footer Info */}
-      <div className="p-3 border border-slate-800/80 rounded-lg bg-slate-900/60">
-        <p className="text-[11px] font-semibold text-slate-300">Self-Hosted DevPulse</p>
-        <p className="text-[10px] text-slate-500 mt-0.5">SQLite &bull; Express &bull; React &bull; Vite</p>
+      {/* Footer Info & Ownership */}
+      <div className="p-3 border border-slate-800/80 rounded-lg bg-slate-900/60 space-y-1.5">
+        <div className="flex items-center justify-between">
+          <p className="text-[11px] font-semibold text-slate-200">DevPulse Platform</p>
+          <span className="text-[9px] px-1.5 py-0.2 rounded bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">v1.0</span>
+        </div>
+        <p className="text-[10px] text-slate-400">
+          تطوير المهندس: <span className="text-white font-medium">سهيل الحاج</span>
+        </p>
+        <p className="text-[10px] text-emerald-400 font-mono font-medium flex items-center space-x-1">
+          <span>هاتف:</span>
+          <a href="tel:773850911" className="hover:underline">773850911</a>
+        </p>
+        <p className="text-[9px] text-slate-500 pt-1 border-t border-slate-800">
+          حقوق الملكية محفوظة &copy; {new Date().getFullYear()}
+        </p>
       </div>
     </aside>
   );
 };
+

@@ -101,3 +101,4 @@ describe('Authentication & User Endpoints', () => {
     expect(res.body.success).toBe(false);
   });
 });
+

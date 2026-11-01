@@ -13,3 +13,4 @@ router.get('/me', authenticate, getMe);
 router.get('/users', authenticate, listUsers);
 
 export default router;
+

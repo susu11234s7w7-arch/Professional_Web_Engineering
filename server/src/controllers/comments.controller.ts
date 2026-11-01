@@ -74,3 +74,4 @@ export function listComments(req: Request, res: Response, next: NextFunction): v
     next(error);
   }
 }
+

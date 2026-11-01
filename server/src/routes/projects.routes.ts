@@ -21,3 +21,4 @@ router.post('/:projectId/issues', validate({ body: createIssueSchema }), createI
 router.get('/:projectId/activity', getProjectActivity);
 
 export default router;
+

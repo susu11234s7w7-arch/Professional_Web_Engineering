@@ -47,3 +47,4 @@ export const KanbanBoard: React.FC<KanbanBoardProps> = ({ onSelectIssue, onQuick
     </div>
   );
 };
+

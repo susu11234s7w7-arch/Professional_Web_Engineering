@@ -19,3 +19,4 @@ export function validate(schema: { body?: AnyZodObject; query?: AnyZodObject; pa
     }
   };
 }
+
