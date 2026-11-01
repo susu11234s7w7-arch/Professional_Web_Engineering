@@ -16,6 +16,9 @@ coverage/
 *.db-shm
 *.sqlite
 *.sqlite3
+*.sqlite*
+data/
+**/data/
 
 # Environment variables
 .env
