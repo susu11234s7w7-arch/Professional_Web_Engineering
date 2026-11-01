@@ -1,0 +1,42 @@
+{
+  "name": "devpulse",
+  "version": "1.0.0",
+  "description": "Production-grade Team Issue & Project Tracking Platform",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"blue,magenta\" \"npm --workspace=server run dev\" \"npm --workspace=client run dev\"",
+    "dev:server": "npm --workspace=server run dev",
+    "dev:client": "npm --workspace=client run dev",
+    "build": "npm --workspace=server run build && npm --workspace=client run build",
+    "build:server": "npm --workspace=server run build",
+    "build:client": "npm --workspace=client run build",
+    "start": "npm --workspace=server run start",
+    "test": "npm --workspace=server run test",
+    "test:coverage": "npm --workspace=server run test:coverage",
+    "typecheck": "npm --workspace=server run typecheck && npm --workspace=client run typecheck",
+    "seed": "npm --workspace=server run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "issue-tracker",
+    "project-management",
+    "kanban",
+    "typescript",
+    "react",
+    "express",
+    "sqlite"
+  ],
+  "author": "DevPulse Contributors",
+  "license": "MIT"
+}
+
